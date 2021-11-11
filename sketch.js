@@ -6,13 +6,13 @@ var ball;
 
 function setup() 
 {
-  createCanvas(1500, 800);
+  createCanvas(600, 400);
 
-  ground = new Box(0,600,1200,20);
-  box1 = new Box(900, 100, 70, 70);
-  box2 = new Box(800, 100, 70, 70);
-  box3 = new Box(700, 100, 70, 70);
-  ball = new Ball(200, 200, 40);
+  ground = new Box(0,300,1200,20);
+  box1 = new Box(200, 100, 70, 70);
+  box2 = new Box(300, 100, 70, 70);
+  box3 = new Box(400, 100, 70, 70);
+  ball = new Ball(100, 200, 40);
 }
 
 function draw() 
@@ -20,14 +20,14 @@ function draw()
   background(220);
 
  
-  ground.display();
-  
+  ground.display(); 
   box1.display();
   box2.display()
   box3.display()
   
   ball.display();
 }
+
 
 
 
